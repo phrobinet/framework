@@ -2443,7 +2443,7 @@ __metadata:
     externality: ^0.1.5
     fs-extra: ^10.0.0
     globby: ^11.0.4
-    h3: ^0.3.5
+    h3: ^0.3.7
     hash-sum: ^2.0.0
     magic-string: ^0.25.7
     mlly: ^0.3.15
@@ -2820,7 +2820,7 @@ __metadata:
     fs-extra: ^10.0.0
     globby: ^11.0.4
     gzip-size: ^7.0.0
-    h3: ^0.3.5
+    h3: ^0.3.7
     hasha: ^5.2.2
     hookable: ^5.0.0
     http-proxy: ^1.18.1
@@ -2845,7 +2845,7 @@ __metadata:
     table: ^6.7.5
     ufo: ^0.7.9
     unbuild: latest
-    unenv: ^0.4.1
+    unenv: ^0.4.2
     unstorage: ^0.3.3
     vue: 3.2.23
     vue-bundle-renderer: ^0.3.4
@@ -4055,10 +4055,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^14.17.34":
-  version: 14.17.34
-  resolution: "@types/node@npm:14.17.34"
-  checksum: 803a7532b6998aca6aa1b3e6239f280e82612d4f641d38fbf08962c905ea9d1b278b2f09d396beac5120a4e68f33d7467298b197f2f00150ec1dcd546de02a89
+"@types/node@npm:^14.18.0":
+  version: 14.18.0
+  resolution: "@types/node@npm:14.18.0"
+  checksum: b120c26fe5f30bc358e861db8d7e401e419d14bd9dd25c022f3c2ea8b0b429d4c9efd77ad5d6d2a8bde61702a6786fb74d409f1b2cbb61c79133e2a65aab4fb1
   languageName: node
   linkType: hard
 
@@ -9610,7 +9610,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.13.14, esbuild@npm:^0.13.2, esbuild@npm:^0.13.4, esbuild@npm:^0.13.8":
+"esbuild@npm:^0.13.2, esbuild@npm:^0.13.4, esbuild@npm:^0.13.8":
   version: 0.13.15
   resolution: "esbuild@npm:0.13.15"
   dependencies:
@@ -11369,10 +11369,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"h3@npm:^0.3.3, h3@npm:^0.3.5":
+"h3@npm:^0.3.3":
   version: 0.3.6
   resolution: "h3@npm:0.3.6"
   checksum: 9a8cc8d66348ad1a1900e8c9bdd7e686acff03953fce534042224744e802fc85bd67a009f9b881742acbdb77874227e0b5f175bc3794c6a7e60a6728dcc3e67f
+  languageName: node
+  linkType: hard
+
+"h3@npm:^0.3.7":
+  version: 0.3.7
+  resolution: "h3@npm:0.3.7"
+  checksum: 2073bc25dfac714700d1575ea077f920106aba9a662a92f4a4867f9bc220d9177cfe205f57a06f79a2bb95facce9e86fa948911caf49f5ffafd1ac34df7cc7ad
   languageName: node
   linkType: hard
 
@@ -14164,7 +14171,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mlly@npm:^0.3.10, mlly@npm:^0.3.13, mlly@npm:^0.3.15, mlly@npm:^0.3.6":
+"mlly@npm:^0.3.10, mlly@npm:^0.3.15, mlly@npm:^0.3.6":
   version: 0.3.15
   resolution: "mlly@npm:0.3.15"
   checksum: 038b808a65284547121db4a672cadfb92fa816391f7c7ba67c37d9f7e81612fdbec36e5e5736723d97247db5e709a304fbdd327325327beeaad8546a4b77d8b1
@@ -15015,7 +15022,7 @@ __metadata:
     "@types/chai": ^4.2.22
     "@types/jsdom": ^16
     "@types/mocha": ^9.0.0
-    "@types/node": ^14.17.34
+    "@types/node": ^14.18.0
     "@types/object-hash": ^2
     chai: ^4.3.4
     esbuild: ^0.14.1
@@ -15031,7 +15038,7 @@ __metadata:
     object-hash: ^2.2.0
     pathe: ^0.2.0
     typescript: ^4.5.2
-    unbuild: ^0.5.13
+    unbuild: ^0.6.2
     vue-router: next
   languageName: unknown
   linkType: soft
@@ -15064,7 +15071,7 @@ __metadata:
     defu: ^5.0.0
     destr: ^1.1.0
     globby: ^11.0.4
-    h3: ^0.3.5
+    h3: ^0.3.7
     hash-sum: ^2.0.0
     hookable: ^5.0.0
     ignore: ^5.1.9
@@ -18483,7 +18490,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup-plugin-esbuild@npm:^4.7.1":
+"rollup-plugin-esbuild@npm:^4.7.2":
   version: 4.7.2
   resolution: "rollup-plugin-esbuild@npm:4.7.2"
   dependencies:
@@ -18536,7 +18543,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:^2.57.0, rollup@npm:^2.58.0, rollup@npm:^2.60.0, rollup@npm:^2.60.2":
+"rollup@npm:^2.57.0, rollup@npm:^2.58.0, rollup@npm:^2.60.2":
   version: 2.60.2
   resolution: "rollup@npm:2.60.2"
   dependencies:
@@ -20433,9 +20440,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unbuild@npm:^0.5.13":
-  version: 0.5.13
-  resolution: "unbuild@npm:0.5.13"
+"unbuild@npm:^0.6.2":
+  version: 0.6.2
+  resolution: "unbuild@npm:0.6.2"
   dependencies:
     "@rollup/plugin-alias": ^3.1.8
     "@rollup/plugin-commonjs": ^21.0.1
@@ -20443,28 +20450,30 @@ __metadata:
     "@rollup/plugin-node-resolve": ^13.0.6
     "@rollup/plugin-replace": ^3.0.0
     "@rollup/pluginutils": ^4.1.1
-    chalk: ^4.1.1
+    chalk: ^5.0.0
     consola: ^2.15.3
     defu: ^5.0.0
-    esbuild: ^0.13.14
+    esbuild: ^0.14.1
+    hookable: ^5.0.0
     jiti: ^1.12.9
     magic-string: ^0.25.7
     mkdirp: ^1.0.4
     mkdist: ^0.3.5
-    mlly: ^0.3.13
+    mlly: ^0.3.15
     mri: ^1.2.0
     pathe: ^0.2.0
+    pkg-types: ^0.3.2
     pretty-bytes: ^5.6.0
     rimraf: ^3.0.2
-    rollup: ^2.60.0
+    rollup: ^2.60.2
     rollup-plugin-dts: ^4.0.1
-    rollup-plugin-esbuild: ^4.7.1
+    rollup-plugin-esbuild: ^4.7.2
     scule: ^0.2.1
     typescript: ^4.5.2
     untyped: ^0.3.0
   bin:
-    unbuild: bin/unbuild.mjs
-  checksum: b9ab338e5bed8ffea3c46863da26f94022dff925a0ad9ccda3b58c043070591952e0e9840139c17c1d51c8e3c4d095b8b02e5a9736ae83894850f3a56fe7db5c
+    unbuild: dist/cli.mjs
+  checksum: 6c215f4dbf4a4260df8765747cc0fb2a3484da628adb302f94bf1b3b55f4c382a828c28b391ba324e4152c2eb2e3f66b9a861991646938e1a4979f105c442f54
   languageName: node
   linkType: hard
 
@@ -20482,9 +20491,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unenv@npm:^0.4.1":
-  version: 0.4.1
-  resolution: "unenv@npm:0.4.1"
+"unenv@npm:^0.4.2":
+  version: 0.4.2
+  resolution: "unenv@npm:0.4.2"
   dependencies:
     buffer: ^6.0.2
     defu: ^5.0.0
@@ -20495,7 +20504,7 @@ __metadata:
     process: ^0.11.10
     upath: ^2.0.1
     util: ^0.12.4
-  checksum: fc29b0ae38bfe99c5d0b190de7b737fa7c94271304240cb34cb844bf11a9ed9a48260d6dc2a19e0d7f38063041de6e2f969e110a2bc90864da5ca746f362cd5b
+  checksum: 3a96b70df3e38388763b486a089b58bcb8deed8800dcb2b74cd02c61c1dc6e1bbc9b46981f37f3130927e830d6d5bd0c26b8223f53a17a38dfda9fc8c577f7e1
   languageName: node
   linkType: hard
 
